@@ -23,9 +23,11 @@ Millions of Indian investors hold 3-5 mutual funds thinking they're diversified,
 6. **Parag Parikh Flexi Cap is the most unique fund** — foreign holdings ensure near-zero overlap with domestic funds
 7. **Best diversification: Mid/Small Cap + Index Fund** — only 3-4% overlap
 8. **Flexi Cap funds aren't really "flexi"** — 7.5x more weight in large caps vs small caps
+9. **Concentration varies wildly** — HDFC Sensex needs just 6 stocks to reach 50% of portfolio, Nippon Small Cap needs 59
+10. **Index funds have zero small cap exposure** — investors relying solely on index funds completely miss the small cap segment
 
 ## SQL Queries & Analysis
-The project includes 17 SQL queries covering:
+The project includes 19 SQL queries covering:
 - Portfolio overlap between fund pairs (weighted overlap using MIN weight formula)
 - Most crowded stocks and sectors across mutual funds
 - Category-wise overlap comparison (Large vs Mid vs Small vs Flexi vs Index)
@@ -34,6 +36,7 @@ The project includes 17 SQL queries covering:
 - Optimal 5-fund portfolio recommendation
 - Hidden gem stocks with high conviction but low popularity
 - Market cap distribution analysis across fund categories
+- Window functions (RANK, cumulative SUM) for holdings ranking and concentration analysis
 
 ## Tech Stack
 - **Python** — requests, BeautifulSoup (web scraping), pandas (data manipulation)
