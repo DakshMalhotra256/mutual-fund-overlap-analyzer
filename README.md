@@ -11,17 +11,17 @@ Millions of Indian investors hold 3-5 mutual funds thinking they're diversified,
   - Small Cap: 10 funds
   - Flexi Cap: 10 funds
   - Index Funds: 5 funds
-- **Total Holdings:** 3,421 stock entries across 1,041 unique stocks
+- **Total Holdings:** 3,421 stock entries across 827 unique stocks
 - **Data as of:** February/March 2026
 
 ## Key Findings
 1. **Index funds share ~100% overlap** — holding multiple Nifty 50 funds is pointless
-2. **Large cap funds overlap 54% on average** — SEBI's 80% mandate in ~100 stocks leaves little room for differentiation
-3. **Small cap funds are the most unique** — only 11% average overlap with 1000+ stocks to choose from
-4. **HDFC Bank & ICICI Bank appear in 28/45 funds** — massive hidden banking concentration
-5. **Eternal Ltd. (Zomato) is the most widely held stock** — present in 31 out of 45 funds
+2. **Large cap funds overlap 57% on average** — SEBI's 80% mandate in ~100 stocks leaves little room for differentiation
+3. **Small cap funds are the most unique** — only 12% average overlap with 1000+ stocks to choose from
+4. **ICICI Bank appears in 30/45 funds, HDFC Bank in 29/45** — massive hidden banking concentration
+5. **Eternal Ltd. (Zomato) is the most widely held stock** — present in 32 out of 45 funds
 6. **Parag Parikh Flexi Cap is the most unique fund** — foreign holdings ensure near-zero overlap with domestic funds
-7. **Best diversification: Mid/Small Cap + Index Fund** — only 3-4% overlap
+7. **Best diversification: Small Cap + Large Cap** — only 4-5% overlap
 8. **Flexi Cap funds aren't really "flexi"** — 7.5x more weight in large caps vs small caps
 9. **Concentration varies wildly** — HDFC Sensex needs just 6 stocks to reach 50% of portfolio, Nippon Small Cap needs 59
 10. **Index funds have zero small cap exposure** — investors relying solely on index funds completely miss the small cap segment
@@ -46,9 +46,9 @@ The project includes 19 SQL queries covering:
 ## Project Structure
 ```
 ├── mutual_fund_overlap_analysis.ipynb  # Main analysis notebook
-├── mutual_fund_overlap.db             # SQLite database
-├── mutual_fund_holdings.csv           # Raw data backup
-├── funds_list.json                    # Fund URLs reference
+├── mutual_fund_overlap.db              # SQLite database
+├── mutual_fund_holdings.csv            # Csv data for backup
+├── funds_list.json                     # Fund URLs reference
 └── README.md
 ```
 
