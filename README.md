@@ -64,6 +64,9 @@ The project includes 19 SQL queries covering:
 - Equity holdings only — debt, cash positions excluded
 - "Other" market cap category includes foreign stocks and uncategorized companies
 
+## Related Projects
+- [Mutual Fund Portfolio Overlap Dashboard (Power BI)](https://github.com/DakshMalhotra256/mutual-fund-overlap-dashboard) — Interactive dashboard visualizing the insights from this SQL analysis
+
 ## Author
 **Daksh Malhotra**
 B.Tech Engineering Physics, Delhi Technological University
